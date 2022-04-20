@@ -1,0 +1,38 @@
+.body{
+    background-image: url("a-cricket-stadium-with-cricket-pitch-and-set-up-wickets-in-the-daytime-EK2EHM.jpg");
+
+}
+.form{
+    color: brown;
+    margin-left: 600px;
+    margin-top: 250px;
+    border: 2px solid red;
+    margin-right: 600px;
+    background-color: bisque;
+    height: 300px;
+    width:400px;
+    text-align: center;
+    
+    
+
+}
+.button{
+    margin-top: 10px;
+    color: crimson;
+}
+.gender{
+    color: darkblue;
+    margin-top: 10px;
+}
+.label1{
+    color: darkmagenta;
+    margin-top: 10px;
+    
+}
+.label2{
+    color: darkblue;
+    margin-top: 10px;
+}
+.head{
+    margin-left: 10px;
+}
