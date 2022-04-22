@@ -1,0 +1,154 @@
+1.Basic Structure of HTML
+<!doctype html
+<html>
+	<head>
+		<title></title>
+		</head>
+	<body>
+
+	</body>
+</html>
+_____________________________________________________________________________________________
+
+2.Attribute are used to control the behaviour of an element or control the element.
+Syntax
+<a href="path"></a>
+_____________________________________________________________________________________________
+3.<img src="path of the image">
+______________________________________________________________________________________________
+4.Hyperlink-It is tag <a></a>, which is use to link the destination of the page.
+Syntax- <a href="url">Text</a>
+example-<a href="index.html">index html</a>
+_____________________________________________________________________________________________
+5.Syntax for creating TABLE
+<table>
+  <tr>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
+
+(example for TABLE)
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Age</th>
+    <th>ID</th>
+  </tr>
+  <tr>
+    <td>Ganesh</td>
+    <td>23</td>
+    <td>22</td>
+  </tr>
+</table>
+______________________________________________________________________________________________
+6.Registration Form
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Task
+        </title>
+        <link rel="stylesheet" href="Task.css">
+    </head>
+    <body class="body">
+    <div >
+        <div class="form">   
+        <form action=""><h1 class="head">Registration</h1> 
+       
+        <div class="label1">
+            <input type="email" name="email" required placeholder="Enter The Email">
+        </div>
+        <div class="label2">
+            <input type="password" name="password" required placeholder="Enter The Password">
+        </div>
+       
+        <div class="gender"><br>
+<input type="radio" name="gender" checked>Male 
+<input type="radio" name="gender" >Female
+<input type="radio" name="gender">Others <br><br>
+        </div>
+       
+        <div class="button">
+<input type="submit" value="Submit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="reset" value="Reset">
+        </form>
+        </div>
+        </div>
+        </div>
+    </body>
+</html>
+________________________________________________________________________________________________________________________________________
+
+1.Types of CSS
+
+*Inline CSS
+Syntax-
+<h1 style="color:blue;">A Blue Heading</h1>
+-------------------------------------------------------
+*Internal CSS
+Syntax-<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {background-color: ;}
+h1   {color: ;}
+p    {color: ;}
+</style>
+</head>
+<body>
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
+----------------------------------------------------
+*Extranal CSS
+Syntax-
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
+_________________________________________________________________________________________
+
+2.CSS Selector with example
+
+*Simple selectors 
+*Combinator selectors 
+*Pseudo-class selectors 
+*Pseudo-elements selectors 
+*Attribute selectors
+__________________________________________________________________________________________
+3.Syntax And Example of CSS Box Model
+
+Syntax-
+div {
+  width: size;
+  border: size &color;
+  padding: size;
+  margin: size;
+}
+-------------------------
+Exmaple for CSS Box Model
+div {
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+}
